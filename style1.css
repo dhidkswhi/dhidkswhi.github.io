@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  gap: 5px;
+  padding: 10px;
+}
+
+.grid-container div {
+  overflow: hidden;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
