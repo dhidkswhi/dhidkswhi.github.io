@@ -26,6 +26,34 @@ a, a:link, a:hover, a:visited {
 body {
     font-family: "Pretendard", sans-serif;
     background-color: black;
+
+    @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  #logo {
+    font-size: 12vw;          /* 반응형 폰트 크기 */
+    letter-spacing: 4vw;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .navmenu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navmenu a {
+    font-size: 5vw;
+  }
+}
+
     
 }
 header {
@@ -54,6 +82,7 @@ header {
     gap: 20px; /* flex 아이템 사이의 간격 */ 
 }
 /* #navmenu 요소에 포함된 a 태그 스타일 설정 */
+
 .navmenu a {
     color: #ffffff;
 }
@@ -88,8 +117,8 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 856px);
-  grid-template-rows: repeat(4, 516px);
+  grid-template-columns: repeat(2, 45vw);
+  grid-template-rows: repeat(4, 25vw);
   gap: 5px;
   width: calc(856px * 2 + 5px); /* 856 x 2 + 1개 gap */
   margin: 0 auto; /* 가운데 정렬 */
