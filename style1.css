@@ -27,7 +27,7 @@ body {
     font-family: "Pretendard", sans-serif;
     background-color: black;
 
-    @media (max-width: 768px) {
+ /*   @media (max-width: 768px) {
   header {
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
   }
 
   #logo {
-    font-size: 12vw;          /* 반응형 폰트 크기 */
+    font-size: 12vw;          
     letter-spacing: 4vw;
     margin-bottom: 20px;
     text-align: center;
@@ -51,11 +51,11 @@ body {
 
   .navmenu a {
     font-size: 5vw;
-  }
+  }*/
 }
 
     
-}
+
 header {
     margin-top:100px ;
     top: 0;
@@ -72,8 +72,8 @@ header {
 
 #logo {
     font-family: "Paperlogy-9Black", sans-serif;
-    font-size: 103px;
-    letter-spacing:80px;
+    font-size: 6vw;
+    letter-spacing:4vw;
     top:140px;
 }
 
@@ -185,4 +185,23 @@ h1 {
 .image-wrapper:hover .caption {
   opacity: 1;
   transform: translateY(0);
+}
+footer {
+    padding-bottom: 20px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+@media screen and (max-width:960px){
+    header{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        flex-direction: column-reverse;  
+        justify-items: center;
+        padding: 10px  
+    }
 }
