@@ -93,17 +93,17 @@ main {
     margin-bottom: 60px;
 }
 .title {
-    font-size: 57px;
+    font-size: 5vw;
+    letter-spacing:4vw;
     font-weight: 700;
     text-align: center;
-    letter-spacing:100px;
     position: center;
-    padding-top: 180px;
+    padding-top: 8vw;
     color: #ffffff;
 }
 .desc {
     padding-top: 180px;
-    font-size: 36px;
+    font-size: 3vw;
     font-weight: 400;
     line-height: 120%;
     text-align: center;
@@ -138,7 +138,7 @@ footer 영역 - 저작권 정보
 ----------------------------------------------------------------------- */
 
 footer {
-    padding-bottom: 3vw;
+    padding-bottom: 20px;
     padding-top: 60px;
     text-align: center;
     font-size: 16px;
