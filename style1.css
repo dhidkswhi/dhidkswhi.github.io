@@ -196,6 +196,7 @@ footer {
 @media screen and (max-width:960px){
     header{
         flex-direction: column-reverse;
+        padding-left: 0;
     }
 }
 @media screen and (max-width:480px){
@@ -204,4 +205,11 @@ footer {
         justify-items: center;
         padding: 10px  
     }
+    #logo {
+      left: 50%;
+      transform: translateX(-50%);
+      top:20px
+  
+    }
+    
 }
